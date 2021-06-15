@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+
+
+
+/* Navigation and Home */
+.navigation-bar,
+.home,
+.quotes,
+footer {
+  background-color: #ff4c68;
+}
+
+.navigation-bar {
+  position: sticky;
+  top: 0px;
+}
+
+nav {
+  margin-left: 7%;
+}
+
+.nav-menu a {
+  list-style: none;
+  margin: 1px 15px 0px 0;
+  color: #e1e1dd !important;
+  font-family: "Fredoka One", cursive;
+  text-decoration: none;
+  font-size: clamp(1rem, 1.15vw, 1rem);
+}
+
+.navbar-toggler {
+  background-color: #ffffff5c;
+}
+.fa-bars {
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.home {
+  padding: 5% 0px 10%;
+  position: relative;
+}
+
+.name {
+  text-align: center;
+  color: white;
+}
+
+.fa-head-side-mask{
+  color: white;
+}
+
+.name > h1 {
+  font-size: clamp(3rem, 5vw, 4rem);
+  font-family: "Permanent Marker", cursive;
+}
+
+.name > h5 {
+  color: #e1e1dd;
+  padding-top: 5px;
+  font-size: clamp(1.2rem, 2vw, 1.2rem);
+  font-family: "Kaushan Script", cursive;
+  font-family: "Carter One", cursive;
+}
+/* Navigation and Home */
+
+/* About */
+.about {
+    padding: 7%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+  }
+  
+  .about h2 {
+    font-family: 'Abril Fatface', cursive;
+  }
+
+  .about p{
+      font-size: clamp(20px, 1.28vw, 18px);
+      font-weight: 900;
+      text-align: justify;
+
+  }
+  
+  .bharati-image {
+    position: relative;
+  }
+  
+  .about img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 275px;
+    width: 275px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .buttons {
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 900;
+  }
+
+  .btnz {
+      margin-top: 15px;
+  }
+  
+  .space {
+    margin: 5px;
+  }
+  /* About */
+  
+  
+  /* Quotes */
+
+  .quotes{
+    position: relative;
+    padding: 12%;
+  color: white;
+  }
+
+  .quotes > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: clamp(31px,3vw,2.8rem);
+    
+  }
+
+  /* Achievements */
+
+  .achievements{
+    padding: 7% 5% 2% 7%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+  }
+  
+  .separator{
+    display: flex;
+    align-items: center;
+  }
+  
+  .separator h2{
+    padding: 0 0.2rem; 
+    /* font-size: 30px; */
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  .separator .line{
+    flex: 1;
+    height: 1px;
+    background-color: #000;
+    
+  }
+  
+  .achievement-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex: 1;
+    margin-bottom: 35px;
+    
+  }
+  
+  .achievements-box{
+    border: 1px solid black;
+    margin-left: 5px;
+    padding: 10px;
+    margin-top: 25px;
+  }
+  
+  .achievements-box .phead {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: clamp(20px, 1.7vw, 30px);
+  }
+  
+  .achievement-box p {
+    margin: 0;
+    font-size: clamp(20px, 1.28vw, 18px);
+      font-weight: 900;
+      text-align: center;
+
+  }
+  
+  .hr-box {
+    width: 100%; 
+    height: 20px; 
+    border-bottom: 1px solid black; 
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  .hr-box-span{
+    font-size: 30px; 
+    background-color: white; 
+    padding: 0 10px;
+    font-weight: 500;
+  }
+
+  .poetries p, .poems p{
+    padding: 0;
+    margin: 0;
+   
+  }
+
+  .poems-list > li, .poetry-list > li {
+    font-size: clamp(20px, 1.28vw, 18px);
+  }
+  
+  .poetries, .poems{
+    padding: 50px 0 50px 0;
+    
+  }
+
+  /* Footer */
+  
+footer{
+  padding: 2% 20%;
+  color: white;
+  display: flex;
+ 
+}
+
+footer .greysish{
+  color: #FFA000;
+}
+
+footer .blueish{
+  color: blue;
+  text-decoration: underline;
+}
+
+footer .side-hr {
+  border-right: 1px solid white;
+ 
+}
+
+footer div {
+  margin-right: 5px;
+}
+
+footer h6 {
+  font-family: 'Abril Fatface', cursive;
+  font-style: italic;
+  font-size: clamp(22px, 1.28vw, 18px);
+}
+
+footer p {
+  font-family: 'Dancing Script', cursive;
+  font-size: clamp(22px, 1.28vw, 18px);
+}
+  
+
+@media (min-width: 414px) and (max-width: 539px) {
+  .nav-menu a {
+    font-size: 1.1rem;
+  }
+
+  .about p, .poems-list > li, .poetry-list > li, .achievement-box p, .achievement-box .phead {
+    
+      font-size: 30px;
+  }
+
+  .space {
+    font-size: 25px;
+}
+
+.quotes > h1 {
+  font-size: 35px;
+}
+
+footer h6, footer p, .hr-box-span {
+  font-size: 2rem
+}
+
+.separator h2{
+  font-size: 2.2rem;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-menu a {
+    font-size: 1.5rem;
+  }
+
+  .name > h5 {
+    font-size: 1.7rem;
+  }
+
+  .about p {
+    font-size: 1.8rem;
+  
+}
+
+.space {
+    font-size: 30px;
+}
+
+.quotes > h1 {
+  font-size: 40px;
+}
+
+.poems-list > li, .poetry-list > li, .achievement-box p, .achievement-box .phead, footer p, footer h6 {
+  font-size: 1.8rem
+}
+
+footer h6, footer p{
+  font-size: 2rem
+}
+
+footer h6, footer p, .hr-box-span {
+  font-size: 2.2rem
+}
+
+.separator h2{
+  font-size: 2.3rem;
+}
+
+}
+
+
+
+@media (max-width: 1024px) {
+  .achievement-box{
+    display: block;
+    margin-bottom: 45px;
+  }
+
+  footer{
+    overflow: hidden;
+    
+  }
+
+  footer div {
+    margin-right: 18px;
+  }
+}
+
+
+@media (max-width: 990px) {
+    .about img {
+        display: block;
+        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0);
+      }
+
+      .quotes > h1 {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0);
+       
+      }
+
+      .poetries, .poems{
+        padding: 40px 0 0 0;
+        
+      }
+
+      footer{
+        display: block;
+        padding: 7%;
+        text-align: center;
+        
+      }
+    
+      footer > .side-hr {
+        border-right: 0;
+      }
+
+      
+    }
+
+    @media (max-width: 767px) {
+      .achievement-box{
+        margin-bottom: 25px
+      }
+
+       /* .about p {
+         text-align: left;
+       } */
+      /* footer h6, footer p{
+        font-size: 1.35rem
+      } */
+    }
